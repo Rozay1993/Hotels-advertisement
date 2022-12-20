@@ -1,0 +1,64 @@
+#imageInfoTab {
+  max-width: 100%;
+  display: flex;
+  padding: 0px 37px;
+  column-gap: 14px;
+}
+#imageInfoTab .thisImageBox img {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  border: 1.8px solid white;
+}
+#imageInfoTab .thisImageBox:nth-child(1) {
+  display: flex;
+}
+#imageInfoTab .ThisImageBoxInfo {
+  font-size: 14px;
+  color: white;
+}
+
+#imageInfoTab .ThisImageBoxInfo h4 {
+  letter-spacing: 0.5px;
+}
+
+#imageInfoTab .ThisImageBoxInfo ul {
+  list-style: none;
+}
+
+#imageInfoTab .ThisImageBoxInfo ul li {
+  font-size: 11px;
+}
+
+#imageInfoTab .ThisImageBoxInfo ul li a {
+  transition: all 0.3s;
+}
+
+#imageInfoTab .ThisImageBoxInfo ul li a:hover {
+  font-weight: bold !important;
+}
+
+div#social_media_link ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 17px 0px;
+  padding: 0px 40px;
+}
+
+div#social_media_link ul li {
+  color: black;
+  background: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+div#social_media_link ul li a {
+  display: flex;
+}

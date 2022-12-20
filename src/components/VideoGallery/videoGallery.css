@@ -1,0 +1,9 @@
+/* @media (min-width: 800px) {
+  .make_minimum_thumb {
+    min-height: 209px !important;
+  }
+} */
+
+.aspect-video {
+  aspect-ratio: 16/9.04 !important;
+}
